@@ -72,6 +72,3 @@ No requiere instalación de librerías adicionales — solo `numpy`, `pandas`, `
 
 ---
 
-
-
-Uso académico. Institución Universitaria Digital de Antioquia — 2026.
