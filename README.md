@@ -1,7 +1,7 @@
   # Modelo Oculto de Markov
 ### Mantenimiento Predictivo de Maquinaria Industrial
 
-## 📋 Descripción
+##  Descripción
 
 Implementación de un **Modelo Oculto de Markov (HMM)** para simular el comportamiento de una máquina industrial y predecir fallas antes de que ocurran. El modelo separa dos capas:
 
@@ -12,7 +12,7 @@ Se realizan múltiples simulaciones para validar la convergencia empírica hacia
 
 ---
 
-## 🗂️ Estructura del repositorio
+##  Estructura del repositorio
 
 ```
 SimulacionEA2/
@@ -22,7 +22,7 @@ SimulacionEA2/
 
 ---
 
-## 🧠 Modelo
+##  Modelo
 
 | Parámetro | Detalle |
 |-----------|---------|
@@ -42,7 +42,7 @@ SimulacionEA2/
 
 ---
 
-## ⚙️ Algoritmos implementados
+##  Algoritmos implementados
 
 | Algoritmo | Descripción |
 |-----------|-------------|
@@ -53,7 +53,7 @@ SimulacionEA2/
 
 ---
 
-## 📊 Resultados principales
+##  Resultados principales
 
 - **Convergencia:** las probabilidades empíricas convergen a la distribución estacionaria teórica antes de las 300 iteraciones (error < 0.01)
 - **Validación paso a paso:** P(estado|t) = π · A^t coincide con el promedio empírico de 1 000 simulaciones en todos los pasos t ∈ [0, 60]
@@ -62,7 +62,7 @@ SimulacionEA2/
 
 ---
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 1. Abrir `SimulacionEA2.ipynb` en [Google Colab](https://colab.research.google.com/)
 2. `Entorno de ejecución → Ejecutar todo`
